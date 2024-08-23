@@ -28,4 +28,6 @@ public class LeaderInArray {
             Collections.reverse(result); // Correctly reverse the result list
             
             // Print the result
-            for (int
+            for (int leader : result) {
+            System.out.print(leader + " ");
+        }
